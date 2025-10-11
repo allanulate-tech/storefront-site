@@ -10,7 +10,7 @@ fetch('data/inventory.json')
       const formattedPrice = new Intl.NumberFormat('es-CR', {
         style: 'currency',
         currency: 'CRC',
-        minimumFractionDigits: 1
+        minimumFractionDigits: 2
       }).format(product.price);
 
       // Build the HTML content
@@ -25,3 +25,4 @@ fetch('data/inventory.json')
       container.appendChild(item);
     });
   });
+
