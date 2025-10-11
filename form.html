@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Agregar Producto</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h2>Agregar nuevo producto</h2>
+  <form id="productForm">
+    <label>Nombre del producto:</label><br />
+    <input type="text" name="name" required /><br />
+
+    <label>Precio (₡):</label><br />
+    <input type="number" name="price" required /><br />
+
+    <label>Descripción:</label><br />
+    <textarea name="description" required></textarea><br />
+
+    <label>Cantidad:</label><br />
+    <input type="number" name="quantity" value="1" required /><br />
+
+    <label>Condición:</label><br />
+    <select name="condition">
+      <option value="New">Nuevo</option>
+      <option value="Used">Usado</option>
+    </select><br />
+
+    <label>Nombre del archivo de imagen:</label><br />
+    <input type="text" name="image" placeholder="ej: producto.jpg" required /><br /><br />
+
+    <button type="submit">Generar JSON</button>
+  </form>
+
+  <p><strong>Nota:</strong> Copia el resultado y pégalo en <code>inventory.json</code>.</p>
+
+  <pre id="output"></pre>
+
+  <script src="scripts/form.js"></script>
+</body>
+</html>
