@@ -1,14 +1,116 @@
 {
   "products": [
     {
-  "name": "Riodas External DVD/CD RW drive",
-  "price": "10000",
-  "description": "Unidad externa de DVD/CD RW - US",
-  "quantity": "2",
-  "condition": "New",
-  "image": "Riodas External DVD-CD RW drive.jpg"
-}
+      "name": "Riodas External DVD/CD RW drive",
+      "price": "10000",
+      "description": "Unidad externa de DVD/CD RW - US",
+      "quantity": "2",
+      "condition": "New",
+      "image": "Riodas External DVD-CD RW drive.jpg"
+    },
+    {
+      "name": "Petlibro Cat food dispenser",
+      "price": "15000",
+      "description": "- Programación de horarios y porciones  \n- Pantalla LCD fácil de usar  \n- Compartimento hermético para conservar frescura  \n- Capacidad generosa para varios días  \n- Ideal para gatos y mascotas pequeñas",
+      "quantity": "1",
+      "condition": "New",
+      "image": "Petlibro Cat food dispenser.jpg"
+    },
+    {
+      "name": "Intertek Coffemaker KC101B",
+      "price": "10000",
+      "description": "- Diseño compacto, ideal para espacios pequeños  \n- Capacidad para preparar 4–5 tazas  \n- Filtro reutilizable incluido  \n- Fácil de limpiar y operar  \n- Color negro elegante",
+      "quantity": "1",
+      "condition": "New",
+      "image": "Intertek Coffemaker KC101B.jpg"
+    },
+    {
+      "name": "Brushless Chainsaw (NO battery)",
+      "price": "15000",
+      "description": "- Motor sin escobillas (brushless) para mayor durabilidad y eficiencia  \n- Diseño compacto y ergonómico  \n- Compatible con baterías estándar de 20V (según modelo)  \n- Fácil de manejar y mantener  \n- Ideal para uso doméstico o semiprofesional",
+      "quantity": "1",
+      "condition": "New",
+      "image": "Brushless Chainsaw (NO battery).jpg"
+    },
+    {
+      "name": "Streamplify Light 10",
+      "price": "12500",
+      "description": "- Diámetro de 10 pulgadas  \n- 3 modos de temperatura de color (cálido, neutro, frío)  \n- Intensidad de luz regulable  \n- Incluye trípode ajustable y soporte para celular  \n- Conexión USB para fácil uso en PC, laptop o adaptador",
+      "quantity": "1",
+      "condition": "New",
+      "image": "Streamplify Light 10_1.jpg"
+    },
+    {
+      "name": "🖼️ Luz para Cuadros Recargable de 15\" con Control Remoto",
+      "price": "12500",
+      "description": "- Luz LED recargable (sin cables visibles)  \n- Control remoto incluido para encendido, apagado y ajuste de brillo  \n- 3 temperaturas de color: cálido, neutro y frío  \n- Instalación sencilla en pared o marco  \n- Diseño moderno y discreto",
+      "quantity": "1",
+      "condition": "New",
+      "image": "Picture light with Remote 15inch Rechargeable_1.jpg"
+    },
+    {
+      "name": "¡🎮 Sistema Retro Old Arcade!",
+      "price": "12500",
+      "description": "¿Listo para revivir la magia de los videojuegos clásicos? Este sistema arcade retro es perfecto para los amantes de lo vintage y la nostalgia gamer. Incluye múltiples juegos integrados, controles estilo arcade, y conexión HDMI para una experiencia plug-and-play.",
+      "quantity": "1",
+      "condition": "New",
+      "image": "Retro Old Arcade system.jpg"
+    },
+    {
+      "name": "🧠📷 Cámara Inteligente P04ZA2-BR – Visión avanzada para tu seguridad",
+      "price": "12500",
+      "description": "- Procesador quad-core ARM Cortex-A9 a 800 MHz  \n- 2 GB de RAM + 2 GB de almacenamiento interno  \n- Sensor de 1.3 MP con captura de hasta 90 fps  \n- Lente de 8 mm con enfoque ajustable  \n- Procesamiento de imagen por FPGA para mayor velocidad  \n- Conectividad POWERLINK para integración industrial  \n- Recubrimiento antirreflejo de alta calidad",
+      "quantity": "1",
+      "condition": "New",
+      "image": "Smart Camera P04ZA2-BR.jpg"
+    },
+    {
+      "name": "⚡🔊 Estación de Carga Inalámbrica Magnética 4 en 1 – Modelo WS-902",
+      "price": "12500",
+      "description": "📱⌚🔋🔊 **Funciones 4 en 1:**  \n1. Carga inalámbrica magnética para teléfonos compatibles (MagSafe y Qi)  \n2. Base para Apple Watch  \n3. Carga para AirPods o audífonos con estuche inalámbrico  \n4. Altavoz Bluetooth integrado para música o llamadas",
+      "quantity": "1",
+      "condition": "New",
+      "image": "4-1 Magnetic Wireless Charging station WS-902 BT.jpg"
+    },
+    {
+      "name": "🔊 Bocina Resistente al Agua IPX7 – Música en cualquier ambiente",
+      "price": "12500",
+      "description": "- Certificación IPX7: resistente al agua  \n- Conexión Bluetooth estable  \n- Batería recargable de larga duración  \n- Diseño compacto y portátil  \n- Ideal para exteriores, viajes o uso diario",
+      "quantity": "1",
+      "condition": "New",
+      "image": "Waterproof Speaker IPX7.jpg"
+    },
+    {
+      "name": "⚖️ Balanza Digital Profesional – Fuzion KD-Series",
+      "price": "10000",
+      "description": "- Alta precisión para gramos y onzas  \n- Pantalla LCD clara y fácil de leer  \n- Superficie de acero inoxidable  \n- Función de tara para medir ingredientes con recipiente  \n- Compacta y fácil de guardar",
+      "quantity": "1",
+      "condition": "New",
+      "image": "Professional digital scale Fuzion KD-series.jpg"
+    },
+    {
+      "name": "🔭 Binoculares Compactos VULNESS",
+      "price": "12500",
+      "description": "- Diseño compacto y portátil (caben en el bolsillo)  \n- Aumento de hasta 8x con lentes de 25 mm  \n- Peso ligero: solo 160 gramos  \n- Apto para adultos y niños  \n- Color: gris carbón elegante  \n- Incluye estuche de transporte",
+      "quantity": "1",
+      "condition": "New",
+      "image": "Binoculars - Vulness.jpg"
+    },
+    {
+      "name": "🔭 Monocular Compacto",
+      "price": "12500",
+      "description": "- Aumento potente para visión a larga distancia  \n- Diseño compacto y portátil  \n- Ideal para uso con una sola mano  \n- Compatible con adaptadores para celular (según modelo)  \n- Incluye estuche de transporte",
+      "quantity": "1",
+      "condition": "New",
+      "image": "Monocular.jpg"
+    },
+    {
+      "name": "💨 Deshumidificador HSECPTOW",
+      "price": "15000",
+      "description": "Bajo consumo eléctrico, silencioso, y con depósito de agua removible.",
+      "quantity": "1",
+      "condition": "New",
+      "image": "Dehumidifier - HSECPTOW.jpg"
+    }
   ]
-
 }
-
