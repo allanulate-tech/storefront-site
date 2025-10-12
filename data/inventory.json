@@ -111,6 +111,70 @@
       "quantity": "1",
       "condition": "New",
       "image": "Dehumidifier - HSECPTOW.jpg"
+    },
+    {
+      "name": "📸 Cámara Solar para Senderos",
+      "price": "15000",
+      "description": "- Observación de vida silvestre (venados, aves, jabalíes, etc.)  \n- Seguridad rural o perimetral  \n- Monitoreo en zonas remotas sin acceso eléctrico",
+      "quantity": "1",
+      "condition": "New",
+      "image": "Solar Trail Camera.jpg"
+    },
+    {
+      "name": "✨ Rizador Giratorio SM-C650",
+      "price": "10000",
+      "description": "- Barril giratorio automático para rizos uniformes  \n- Control de temperatura ajustable  \n- Calentamiento rápido  \n- Cable giratorio para mayor comodidad  \n- Diseño ergonómico y seguro",
+      "quantity": "1",
+      "condition": "New",
+      "image": "Rotating Curling Iron SM-C650.jpg"
+    },
+    {
+      "name": "✨ Rizador 5 en 1 – Prizm",
+      "price": "15000",
+      "description": "- 5 barriles intercambiables de diferentes tamaños y formas  \n- Calentamiento rápido y control de temperatura  \n- Recubrimiento cerámico para proteger el cabello  \n- Cable giratorio y diseño ergonómico  \n- Ideal para uso personal o profesional",
+      "quantity": "1",
+      "condition": "New",
+      "image": "5-1 Curling Wand set - Prizm.jpg"
+    },
+    {
+      "name": "🔦 Lámpara Frontal Recargable – Docho",
+      "price": "4000",
+      "description": "- Luz LED brillante con varios modos de iluminación  \n- Batería recargable integrada  \n- Banda ajustable y cómoda  \n- Diseño compacto y resistente  \n- Ideal para exteriores y uso diario",
+      "quantity": "3",
+      "condition": "New",
+      "image": "Rechargeable Headlamp - Docho.jpg"
+    },
+    {
+      "name": "🌿 Manguera Extensible 50ft / 15m",
+      "price": "10000",
+      "description": "- Longitud: 50 pies / 15 metros  \n- Ligera y fácil de manejar  \n- Se expande automáticamente con el flujo de agua  \n- Conectores estándar compatibles con la mayoría de grifos  \n- Ideal para jardinería, lavado de autos o limpieza exterior",
+      "quantity": "1",
+      "condition": "New",
+      "image": "Expanding Hose 50ft - 15m.jpg"
+    },
+    {
+      "name": "🖥️ Soporte de Escritorio para Doble Monitor – AVLT-DM99-1",
+      "price": "20000",
+      "description": "- Compatible con pantallas de 17\" a 43\" (hasta 15 kg por brazo)  \n- Movimiento completo: inclinación, giro y rotación  \n- Gestión de cables integrada  \n- Base de montaje tipo abrazadera o pasante  \n- Construcción metálica robusta y estable  \n- Luces LED",
+      "quantity": "1",
+      "condition": "New",
+      "image": "Dual 17-43 inch Monitor Desk Mount AVLT-DM99-1.jpg"
+    },
+    {
+      "name": "🛏️ Cama Inflable Twin con Bomba – EnerPlex",
+      "price": "20000",
+      "description": "- Tamaño Twin (individual)  \n- Bomba eléctrica integrada para inflado rápido  \n- Material resistente y superficie cómoda  \n- Ideal para interiores o exteriores  \n- Fácil de guardar y transportar",
+      "quantity": "1",
+      "condition": "New",
+      "image": "Twin Airbed with Pump - EnerPlex.jpg"
+    },
+    {
+      "name": "🛌 Colchón de Aire Duradero – Umbrauto",
+      "price": "20000",
+      "description": "- Material duradero y superficie cómoda  \n- Inflado rápido (compatible con bomba eléctrica o manual)  \n- Diseño ergonómico para mejor descanso  \n- Fácil de guardar y transportar  \n- Ideal para interiores y exteriores",
+      "quantity": "1",
+      "condition": "New",
+      "image": "Umbrauto Durable Bed Air Matress.jpg"
     }
   ]
 }
