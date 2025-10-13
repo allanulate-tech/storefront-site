@@ -11,7 +11,7 @@
     {
       "name": "Petlibro Cat food dispenser",
       "price": "15000",
-      "description": "- Programación de horarios y porciones  \n- Pantalla LCD fácil de usar  \n- Compartimento hermético para conservar frescura  \n- Capacidad generosa para varios días  \n- Ideal para gatos y mascotas pequeñas",
+      "description": "- Programaci\u00f3n de horarios y porciones  \n- Pantalla LCD f\u00e1cil de usar  \n- Compartimento herm\u00e9tico para conservar frescura  \n- Capacidad generosa para varios d\u00edas  \n- Ideal para gatos y mascotas peque\u00f1as",
       "quantity": "1",
       "condition": "New",
       "image": "Petlibro Cat food dispenser.jpg"
@@ -19,7 +19,7 @@
     {
       "name": "Intertek Coffemaker KC101B",
       "price": "10000",
-      "description": "- Diseño compacto, ideal para espacios pequeños  \n- Capacidad para preparar 4–5 tazas  \n- Filtro reutilizable incluido  \n- Fácil de limpiar y operar  \n- Color negro elegante",
+      "description": "- Dise\u00f1o compacto, ideal para espacios peque\u00f1os  \n- Capacidad para preparar 4\u20135 tazas  \n- Filtro reutilizable incluido  \n- F\u00e1cil de limpiar y operar  \n- Color negro elegante",
       "quantity": "1",
       "condition": "New",
       "image": "Intertek Coffemaker KC101B.jpg"
@@ -27,7 +27,7 @@
     {
       "name": "Brushless Chainsaw (NO battery)",
       "price": "15000",
-      "description": "- Motor sin escobillas (brushless) para mayor durabilidad y eficiencia  \n- Diseño compacto y ergonómico  \n- Compatible con baterías estándar de 20V (según modelo)  \n- Fácil de manejar y mantener  \n- Ideal para uso doméstico o semiprofesional",
+      "description": "- Motor sin escobillas (brushless) para mayor durabilidad y eficiencia  \n- Dise\u00f1o compacto y ergon\u00f3mico  \n- Compatible con bater\u00edas est\u00e1ndar de 20V (seg\u00fan modelo)  \n- F\u00e1cil de manejar y mantener  \n- Ideal para uso dom\u00e9stico o semiprofesional",
       "quantity": "1",
       "condition": "New",
       "image": "Brushless Chainsaw (NO battery).jpg"
@@ -35,146 +35,147 @@
     {
       "name": "Streamplify Light 10",
       "price": "12500",
-      "description": "- Diámetro de 10 pulgadas  \n- 3 modos de temperatura de color (cálido, neutro, frío)  \n- Intensidad de luz regulable  \n- Incluye trípode ajustable y soporte para celular  \n- Conexión USB para fácil uso en PC, laptop o adaptador",
+      "description": "- Di\u00e1metro de 10 pulgadas  \n- 3 modos de temperatura de color (c\u00e1lido, neutro, fr\u00edo)  \n- Intensidad de luz regulable  \n- Incluye tr\u00edpode ajustable y soporte para celular  \n- Conexi\u00f3n USB para f\u00e1cil uso en PC, laptop o adaptador",
       "quantity": "1",
       "condition": "New",
       "image": "Streamplify Light 10_1.jpg"
     },
     {
-      "name": "🖼️ Luz para Cuadros Recargable de 15\" con Control Remoto",
+      "name": "\ud83d\uddbc\ufe0f Luz para Cuadros Recargable de 15\" con Control Remoto",
       "price": "12500",
-      "description": "- Luz LED recargable (sin cables visibles)  \n- Control remoto incluido para encendido, apagado y ajuste de brillo  \n- 3 temperaturas de color: cálido, neutro y frío  \n- Instalación sencilla en pared o marco  \n- Diseño moderno y discreto",
+      "description": "- Luz LED recargable (sin cables visibles)  \n- Control remoto incluido para encendido, apagado y ajuste de brillo  \n- 3 temperaturas de color: c\u00e1lido, neutro y fr\u00edo  \n- Instalaci\u00f3n sencilla en pared o marco  \n- Dise\u00f1o moderno y discreto",
       "quantity": "1",
       "condition": "New",
       "image": "Picture light with Remote 15inch Rechargeable_1.jpg"
     },
     {
-      "name": "¡🎮 Sistema Retro Old Arcade!",
+      "name": "\u00a1\ud83c\udfae Sistema Retro Old Arcade!",
       "price": "12500",
-      "description": "¿Listo para revivir la magia de los videojuegos clásicos? Este sistema arcade retro es perfecto para los amantes de lo vintage y la nostalgia gamer. Incluye múltiples juegos integrados, controles estilo arcade, y conexión HDMI para una experiencia plug-and-play.",
+      "description": "\u00bfListo para revivir la magia de los videojuegos cl\u00e1sicos? Este sistema arcade retro es perfecto para los amantes de lo vintage y la nostalgia gamer. Incluye m\u00faltiples juegos integrados, controles estilo arcade, y conexi\u00f3n HDMI para una experiencia plug-and-play.",
       "quantity": "1",
       "condition": "New",
       "image": "Retro Old Arcade system.jpg"
     },
     {
-      "name": "🧠📷 Cámara Inteligente P04ZA2-BR – Visión avanzada para tu seguridad",
+      "name": "\ud83e\udde0\ud83d\udcf7 C\u00e1mara Inteligente P04ZA2-BR \u2013 Visi\u00f3n avanzada para tu seguridad",
       "price": "12500",
-      "description": "- Procesador quad-core ARM Cortex-A9 a 800 MHz  \n- 2 GB de RAM + 2 GB de almacenamiento interno  \n- Sensor de 1.3 MP con captura de hasta 90 fps  \n- Lente de 8 mm con enfoque ajustable  \n- Procesamiento de imagen por FPGA para mayor velocidad  \n- Conectividad POWERLINK para integración industrial  \n- Recubrimiento antirreflejo de alta calidad",
+      "description": "- Procesador quad-core ARM Cortex-A9 a 800 MHz  \n- 2 GB de RAM + 2 GB de almacenamiento interno  \n- Sensor de 1.3 MP con captura de hasta 90 fps  \n- Lente de 8 mm con enfoque ajustable  \n- Procesamiento de imagen por FPGA para mayor velocidad  \n- Conectividad POWERLINK para integraci\u00f3n industrial  \n- Recubrimiento antirreflejo de alta calidad",
       "quantity": "1",
       "condition": "New",
       "image": "Smart Camera P04ZA2-BR.jpg"
     },
     {
-      "name": "⚡🔊 Estación de Carga Inalámbrica Magnética 4 en 1 – Modelo WS-902",
+      "name": "\u26a1\ud83d\udd0a Estaci\u00f3n de Carga Inal\u00e1mbrica Magn\u00e9tica 4 en 1 \u2013 Modelo WS-902",
       "price": "12500",
-      "description": "📱⌚🔋🔊 **Funciones 4 en 1:**  \n1. Carga inalámbrica magnética para teléfonos compatibles (MagSafe y Qi)  \n2. Base para Apple Watch  \n3. Carga para AirPods o audífonos con estuche inalámbrico  \n4. Altavoz Bluetooth integrado para música o llamadas",
+      "description": "\ud83d\udcf1\u231a\ud83d\udd0b\ud83d\udd0a **Funciones 4 en 1:**  \n1. Carga inal\u00e1mbrica magn\u00e9tica para tel\u00e9fonos compatibles (MagSafe y Qi)  \n2. Base para Apple Watch  \n3. Carga para AirPods o aud\u00edfonos con estuche inal\u00e1mbrico  \n4. Altavoz Bluetooth integrado para m\u00fasica o llamadas",
       "quantity": "1",
       "condition": "New",
       "image": "4-1 Magnetic Wireless Charging station WS-902 BT.jpg"
     },
     {
-      "name": "🔊 Bocina Resistente al Agua IPX7 – Música en cualquier ambiente",
+      "name": "\ud83d\udd0a Bocina Resistente al Agua IPX7 \u2013 M\u00fasica en cualquier ambiente",
       "price": "12500",
-      "description": "- Certificación IPX7: resistente al agua  \n- Conexión Bluetooth estable  \n- Batería recargable de larga duración  \n- Diseño compacto y portátil  \n- Ideal para exteriores, viajes o uso diario",
+      "description": "- Certificaci\u00f3n IPX7: resistente al agua  \n- Conexi\u00f3n Bluetooth estable  \n- Bater\u00eda recargable de larga duraci\u00f3n  \n- Dise\u00f1o compacto y port\u00e1til  \n- Ideal para exteriores, viajes o uso diario",
       "quantity": "1",
       "condition": "New",
       "image": "Waterproof Speaker IPX7.jpg"
     },
     {
-      "name": "⚖️ Balanza Digital Profesional – Fuzion KD-Series",
+      "name": "\u2696\ufe0f Balanza Digital Profesional \u2013 Fuzion KD-Series",
       "price": "10000",
-      "description": "- Alta precisión para gramos y onzas  \n- Pantalla LCD clara y fácil de leer  \n- Superficie de acero inoxidable  \n- Función de tara para medir ingredientes con recipiente  \n- Compacta y fácil de guardar",
+      "description": "- Alta precisi\u00f3n para gramos y onzas  \n- Pantalla LCD clara y f\u00e1cil de leer  \n- Superficie de acero inoxidable  \n- Funci\u00f3n de tara para medir ingredientes con recipiente  \n- Compacta y f\u00e1cil de guardar",
       "quantity": "1",
       "condition": "New",
       "image": "Professional digital scale Fuzion KD-series.jpg"
     },
     {
-      "name": "🔭 Binoculares Compactos VULNESS",
+      "name": "\ud83d\udd2d Binoculares Compactos VULNESS",
       "price": "12500",
-      "description": "- Diseño compacto y portátil (caben en el bolsillo)  \n- Aumento de hasta 8x con lentes de 25 mm  \n- Peso ligero: solo 160 gramos  \n- Apto para adultos y niños  \n- Color: gris carbón elegante  \n- Incluye estuche de transporte",
+      "description": "- Dise\u00f1o compacto y port\u00e1til (caben en el bolsillo)  \n- Aumento de hasta 8x con lentes de 25 mm  \n- Peso ligero: solo 160 gramos  \n- Apto para adultos y ni\u00f1os  \n- Color: gris carb\u00f3n elegante  \n- Incluye estuche de transporte",
       "quantity": "1",
       "condition": "New",
       "image": "Binoculars - Vulness.jpg"
     },
     {
-      "name": "🔭 Monocular Compacto",
+      "name": "\ud83d\udd2d Monocular Compacto",
       "price": "12500",
-      "description": "- Aumento potente para visión a larga distancia  \n- Diseño compacto y portátil  \n- Ideal para uso con una sola mano  \n- Compatible con adaptadores para celular (según modelo)  \n- Incluye estuche de transporte",
+      "description": "- Aumento potente para visi\u00f3n a larga distancia  \n- Dise\u00f1o compacto y port\u00e1til  \n- Ideal para uso con una sola mano  \n- Compatible con adaptadores para celular (seg\u00fan modelo)  \n- Incluye estuche de transporte",
       "quantity": "1",
       "condition": "New",
       "image": "Monocular.jpg"
     },
     {
-      "name": "💨 Deshumidificador HSECPTOW",
+      "name": "\ud83d\udca8 Deshumidificador HSECPTOW",
       "price": "15000",
-      "description": "Bajo consumo eléctrico, silencioso, y con depósito de agua removible.",
+      "description": "Bajo consumo el\u00e9ctrico, silencioso, y con dep\u00f3sito de agua removible.",
       "quantity": "1",
       "condition": "New",
       "image": "Dehumidifier - HSECPTOW.jpg"
     },
     {
-      "name": "📸 Cámara Solar para Senderos",
+      "name": "\ud83d\udcf8 C\u00e1mara Solar para Senderos",
       "price": "15000",
-      "description": "- Observación de vida silvestre (venados, aves, jabalíes, etc.)  \n- Seguridad rural o perimetral  \n- Monitoreo en zonas remotas sin acceso eléctrico",
+      "description": "- Observaci\u00f3n de vida silvestre (venados, aves, jabal\u00edes, etc.)  \n- Seguridad rural o perimetral  \n- Monitoreo en zonas remotas sin acceso el\u00e9ctrico",
       "quantity": "1",
       "condition": "New",
       "image": "Solar Trail Camera.jpg"
     },
     {
-      "name": "✨ Rizador Giratorio SM-C650",
+      "name": "\u2728 Rizador Giratorio SM-C650",
       "price": "10000",
-      "description": "- Barril giratorio automático para rizos uniformes  \n- Control de temperatura ajustable  \n- Calentamiento rápido  \n- Cable giratorio para mayor comodidad  \n- Diseño ergonómico y seguro",
+      "description": "- Barril giratorio autom\u00e1tico para rizos uniformes  \n- Control de temperatura ajustable  \n- Calentamiento r\u00e1pido  \n- Cable giratorio para mayor comodidad  \n- Dise\u00f1o ergon\u00f3mico y seguro",
       "quantity": "1",
       "condition": "New",
       "image": "Rotating Curling Iron SM-C650.jpg"
     },
     {
-      "name": "✨ Rizador 5 en 1 – Prizm",
+      "name": "\u2728 Rizador 5 en 1 \u2013 Prizm",
       "price": "15000",
-      "description": "- 5 barriles intercambiables de diferentes tamaños y formas  \n- Calentamiento rápido y control de temperatura  \n- Recubrimiento cerámico para proteger el cabello  \n- Cable giratorio y diseño ergonómico  \n- Ideal para uso personal o profesional",
+      "description": "- 5 barriles intercambiables de diferentes tama\u00f1os y formas  \n- Calentamiento r\u00e1pido y control de temperatura  \n- Recubrimiento cer\u00e1mico para proteger el cabello  \n- Cable giratorio y dise\u00f1o ergon\u00f3mico  \n- Ideal para uso personal o profesional",
       "quantity": "1",
       "condition": "New",
       "image": "5-1 Curling Wand set - Prizm.jpg"
     },
     {
-      "name": "🔦 Lámpara Frontal Recargable – Docho",
+      "name": "\ud83d\udd26 L\u00e1mpara Frontal Recargable \u2013 Docho",
       "price": "4000",
-      "description": "- Luz LED brillante con varios modos de iluminación  \n- Batería recargable integrada  \n- Banda ajustable y cómoda  \n- Diseño compacto y resistente  \n- Ideal para exteriores y uso diario",
+      "description": "- Luz LED brillante con varios modos de iluminaci\u00f3n  \n- Bater\u00eda recargable integrada  \n- Banda ajustable y c\u00f3moda  \n- Dise\u00f1o compacto y resistente  \n- Ideal para exteriores y uso diario",
       "quantity": "3",
       "condition": "New",
       "image": "Rechargeable Headlamp - Docho.jpg"
     },
     {
-      "name": "🌿 Manguera Extensible 50ft / 15m",
+      "name": "\ud83c\udf3f Manguera Extensible 50ft / 15m",
       "price": "10000",
-      "description": "- Longitud: 50 pies / 15 metros  \n- Ligera y fácil de manejar  \n- Se expande automáticamente con el flujo de agua  \n- Conectores estándar compatibles con la mayoría de grifos  \n- Ideal para jardinería, lavado de autos o limpieza exterior",
+      "description": "- Longitud: 50 pies / 15 metros  \n- Ligera y f\u00e1cil de manejar  \n- Se expande autom\u00e1ticamente con el flujo de agua  \n- Conectores est\u00e1ndar compatibles con la mayor\u00eda de grifos  \n- Ideal para jardiner\u00eda, lavado de autos o limpieza exterior",
       "quantity": "1",
       "condition": "New",
       "image": "Expanding Hose 50ft - 15m.jpg"
     },
     {
-      "name": "🖥️ Soporte de Escritorio para Doble Monitor – AVLT-DM99-1",
+      "name": "\ud83d\udda5\ufe0f Soporte de Escritorio para Doble Monitor \u2013 AVLT-DM99-1",
       "price": "20000",
-      "description": "- Compatible con pantallas de 17\" a 43\" (hasta 15 kg por brazo)  \n- Movimiento completo: inclinación, giro y rotación  \n- Gestión de cables integrada  \n- Base de montaje tipo abrazadera o pasante  \n- Construcción metálica robusta y estable  \n- Luces LED",
+      "description": "- Compatible con pantallas de 17\" a 43\" (hasta 15 kg por brazo)  \n- Movimiento completo: inclinaci\u00f3n, giro y rotaci\u00f3n  \n- Gesti\u00f3n de cables integrada  \n- Base de montaje tipo abrazadera o pasante  \n- Construcci\u00f3n met\u00e1lica robusta y estable  \n- Luces LED",
       "quantity": "1",
       "condition": "New",
       "image": "Dual 17-43 inch Monitor Desk Mount AVLT-DM99-1.jpg"
     },
     {
-      "name": "🛏️ Cama Inflable Twin con Bomba – EnerPlex",
+      "name": "\ud83d\udecf\ufe0f Cama Inflable Twin con Bomba \u2013 EnerPlex",
       "price": "20000",
-      "description": "- Tamaño Twin (individual)  \n- Bomba eléctrica integrada para inflado rápido  \n- Material resistente y superficie cómoda  \n- Ideal para interiores o exteriores  \n- Fácil de guardar y transportar",
+      "description": "- Tama\u00f1o Twin (individual)  \n- Bomba el\u00e9ctrica integrada para inflado r\u00e1pido  \n- Material resistente y superficie c\u00f3moda  \n- Ideal para interiores o exteriores  \n- F\u00e1cil de guardar y transportar",
       "quantity": "1",
       "condition": "New",
       "image": "Twin Airbed with Pump - EnerPlex.jpg"
     },
     {
-      "name": "🛌 Colchón de Aire Duradero – Umbrauto",
+      "name": "\ud83d\udecc Colch\u00f3n de Aire Duradero \u2013 Umbrauto",
       "price": "20000",
-      "description": "- Material duradero y superficie cómoda  \n- Inflado rápido (compatible con bomba eléctrica o manual)  \n- Diseño ergonómico para mejor descanso  \n- Fácil de guardar y transportar  \n- Ideal para interiores y exteriores",
+      "description": "- Material duradero y superficie c\u00f3moda  \n- Inflado r\u00e1pido (compatible con bomba el\u00e9ctrica o manual)  \n- Dise\u00f1o ergon\u00f3mico para mejor descanso  \n- F\u00e1cil de guardar y transportar  \n- Ideal para interiores y exteriores",
       "quantity": "1",
       "condition": "New",
       "image": "Umbrauto Durable Bed Air Matress.jpg"
     }
-  ]
+  ],
+  "last_updated": "2025-10-13T13:10:00"
 }
