@@ -4,38 +4,108 @@
   <meta charset="UTF-8" />
   <title>Agregar Producto</title>
   <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 2rem;
+      background-color: #f4f4f4;
+    }
+    form {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 8px;
+      max-width: 500px;
+      margin: auto;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    input, textarea, select, button {
+      width: 100%;
+      margin-bottom: 1rem;
+      padding: 0.5rem;
+      font-size: 1rem;
+    }
+    button {
+      background-color: #0078d4;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #005ea2;
+    }
+    #responseMessage {
+      text-align: center;
+      font-weight: bold;
+      margin-top: 1rem;
+    }
+  </style>
 </head>
 <body>
-  <h2>Agregar nuevo producto</h2>
+
+  <h2 style="text-align:center;">Agregar nuevo producto</h2>
   <form id="productForm">
-    <label>Nombre del producto:</label><br />
-    <input type="text" name="name" required /><br />
+    <label>Nombre del producto:</label>
+    <input type="text" name="name" required />
 
-    <label>Precio (₡):</label><br />
-    <input type="number" name="price" required /><br />
+    <label>Precio (₡):</label>
+    <input type="number" name="price" step="0.01" required />
 
-    <label>Descripción:</label><br />
-    <textarea name="description" required></textarea><br />
+    <label>Descripción:</label>
+    <textarea name="description" required></textarea>
 
-    <label>Cantidad:</label><br />
-    <input type="number" name="quantity" value="1" required /><br />
+    <label>Cantidad:</label>
+    <input type="number" name="quantity" value="1" required />
 
-    <label>Condición:</label><br />
+    <label>Condición:</label>
     <select name="condition">
       <option value="New">Nuevo</option>
       <option value="Used">Usado</option>
-    </select><br />
+    </select>
 
-    <label>Nombre del archivo de imagen:</label><br />
-    <input type="text" name="image" placeholder="ej: producto.jpg" required /><br /><br />
+    <label>Nombre del archivo de imagen:</label>
+    <input type="text" name="image" placeholder="ej: producto.jpg" required />
 
     <button type="submit">Generar JSON</button>
+    <div id="responseMessage"></div>
   </form>
 
-  <p><strong>Nota:</strong> Copia el resultado y pégalo en <code>inventory.json</code>.</p>
+  <p style="text-align:center;"><strong>Nota:</strong> Este formulario actualiza directamente <code>inventory.json</code> en GitHub.</p>
 
-  <pre id="output"></pre>
+  <script>
+    const form = document.getElementById("productForm");
+    const message = document.getElementById("responseMessage");
 
-  <script src="scripts/form.js"></script>
+    form.addEventListener("submit", async function (e) {
+      e.preventDefault();
+
+      const formData = new FormData(form);
+      const payload = {
+        id: "item-" + Date.now(), // Genera un ID único basado en timestamp
+        name: formData.get("name"),
+        price: parseFloat(formData.get("price")),
+        description: formData.get("description"),
+        stock: parseInt(formData.get("quantity")),
+        condition: formData.get("condition"),
+        image: formData.get("image")
+      };
+
+      try {
+        const response = await fetch("https://inventory-updated-python.azurewebsites.net/api/UpdateInventoryjson?code=Fhvgmb8BBpQI9_HXuHsF88thWZd9CxVrriOnP9hpmfUJAzFufK7Asg==", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(payload)
+        });
+
+        const result = await response.text();
+        message.textContent = result;
+        message.style.color = response.ok ? "green" : "red";
+      } catch (error) {
+        message.textContent = "Error al enviar los datos.";
+        message.style.color = "red";
+        console.error("Error:", error);
+      }
+    });
+  </script>
+
 </body>
 </html>
