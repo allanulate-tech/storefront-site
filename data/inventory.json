@@ -177,5 +177,16 @@
       "image": "Umbrauto Durable Bed Air Matress.jpg"
     }
   ],
-  "last_updated": "2025-10-13T13:10:00"
+  "last_updated": "2025-10-14T05:13:30.858908",
+  "inventory": [
+    {
+      "id": "item-1760418812858",
+      "name": "Una prueba",
+      "price": 15000,
+      "description": "Una descripci\u00f3n de producto.",
+      "stock": 1,
+      "condition": "New",
+      "image": "Picture light with Remote 15inch Rechargeable_2.jpg"
+    }
+  ]
 }
