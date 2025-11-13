@@ -93,52 +93,44 @@
 
   <p style="text-align:center;"><strong>Nota:</strong> Este formulario actualiza directamente <code>inventory.json</code> en GitHub.</p>
 
-  <script>
-    const form = document.getElementById("productForm");
-    const message = document.getElementById("responseMessage");
+<script>
+  const form = document.getElementById("productForm");
+  const message = document.getElementById("responseMessage");
 
-    form.addEventListener("submit", async function (e) {
-      e.preventDefault();
+  form.addEventListener("submit", async function (e) {
+    e.preventDefault();
 
-      const formData = new FormData(form);
-      const payload = {
-        id: "item-" + Date.now(),
-        name: formData.get("name"),
-        price: parseFloat(formData.get("price")),
-        description: formData.get("description"),
-        stock: parseInt(formData.get("quantity")),
-        condition: formData.get("condition"),
-        image: formData.get("image")
-      };
+    const formData = new FormData(form);
+    formData.append("id", "item-" + Date.now());
 
-      try {
-        const response = await fetch("https://inventory-updated-python.azurewebsites.net/api/UpdateInventoryjson?code=Fhvgmb8BBpQI9_HXuHsF88thWZd9CxVrriOnP9hpmfUJAzFufK7Asg==", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify(payload)
-        });
-
-        const result = await response.text();
-        message.textContent = result;
-        message.style.color = response.ok ? "lightgreen" : "red";
-      } catch (error) {
-        message.textContent = "Error al enviar los datos.";
-        message.style.color = "red";
-        console.error("Error:", error);
-      }
-    });
-
-    function setLanguage(lang) {
-      document.querySelectorAll("label").forEach(label => {
-        label.textContent = label.getAttribute(`data-${lang}`);
+    try {
+      const response = await fetch("https://inventory-updated-python.azurewebsites.net/api/UpdateInventoryjson?code=Fhvgmb8BBpQI9_HXuHsF88thWZd9CxVrriOnP9hpmfUJAzFufK7Asg==", {
+        method: "POST",
+        body: formData
       });
-      document.querySelector("h2").textContent = lang === "es" ? "Agregar nuevo producto" : "Add new product";
-      document.querySelector("button[type='submit']").textContent = lang === "es" ? "Agregar a Inventario" : "Add to Inventory";
-      document.querySelector("p").innerHTML = lang === "es"
-        ? "<strong>Nota:</strong> Este formulario actualiza directamente <code>inventory.json</code> en GitHub."
-        : "<strong>Note:</strong> This form updates <code>inventory.json</code> directly in GitHub.";
+
+      const result = await response.text();
+      message.textContent = result;
+      message.style.color = response.ok ? "lightgreen" : "red";
+    } catch (error) {
+      message.textContent = "Error al enviar los datos.";
+      message.style.color = "red";
+      console.error("Error:", error);
     }
-  </script>
+  });
+
+  function setLanguage(lang) {
+    document.querySelectorAll("label").forEach(label => {
+      label.textContent = label.getAttribute(`data-${lang}`);
+    });
+    document.querySelector("h2").textContent = lang === "es" ? "Agregar nuevo producto" : "Add new product";
+    document.querySelector("button[type='submit']").textContent = lang === "es" ? "Agregar a Inventario" : "Add to Inventory";
+    document.querySelector("p").innerHTML = lang === "es"
+      ? "<strong>Nota:</strong> Este formulario actualiza directamente <code>inventory.json</code> en GitHub."
+      : "<strong>Note:</strong> This form updates <code>inventory.json</code> directly in GitHub.";
+  }
+</script>
 
 </body>
 </html>
+
