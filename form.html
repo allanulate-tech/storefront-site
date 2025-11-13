@@ -7,22 +7,30 @@
   <style>
     body {
       font-family: Arial, sans-serif;
+      margin: 0;
       padding: 2rem;
-      background-color: #f4f4f4;
+      background: linear-gradient(to bottom, #444, #000);
+      color: #fff;
     }
     form {
-      background: white;
+      background: #1a1a1a;
       padding: 1.5rem;
       border-radius: 8px;
       max-width: 500px;
       margin: auto;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      box-shadow: 0 0 10px rgba(255,255,255,0.1);
     }
     input, textarea, select, button {
       width: 100%;
       margin-bottom: 1rem;
       padding: 0.5rem;
       font-size: 1rem;
+      border-radius: 4px;
+      border: none;
+    }
+    input, textarea, select {
+      background-color: #333;
+      color: #fff;
     }
     button {
       background-color: #0078d4;
@@ -38,31 +46,45 @@
       font-weight: bold;
       margin-top: 1rem;
     }
+    .lang-toggle {
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+    .lang-toggle button {
+      margin: 0 0.5rem;
+      background-color: #555;
+    }
   </style>
 </head>
 <body>
 
   <h2 style="text-align:center;">Agregar nuevo producto</h2>
+
+  <div class="lang-toggle">
+    <button onclick="setLanguage('es')">Español</button>
+    <button onclick="setLanguage('en')">English</button>
+  </div>
+
   <form id="productForm">
-    <label>Nombre del producto:</label>
+    <label data-es="Nombre del producto:" data-en="Product Name:">Nombre del producto:</label>
     <input type="text" name="name" required />
 
-    <label>Precio (₡):</label>
+    <label data-es="Precio (₡):" data-en="Price (₡):">Precio (₡):</label>
     <input type="number" name="price" step="0.01" required />
 
-    <label>Descripción:</label>
+    <label data-es="Descripción:" data-en="Description:">Descripción:</label>
     <textarea name="description" required></textarea>
 
-    <label>Cantidad:</label>
+    <label data-es="Cantidad:" data-en="Quantity:">Cantidad:</label>
     <input type="number" name="quantity" value="1" required />
 
-    <label>Condición:</label>
+    <label data-es="Condición:" data-en="Condition:">Condición:</label>
     <select name="condition">
       <option value="New">Nuevo</option>
       <option value="Used">Usado</option>
     </select>
 
-    <label>Nombre del archivo de imagen:</label>
+    <label data-es="Nombre del archivo de imagen:" data-en="Image filename:">Nombre del archivo de imagen:</label>
     <input type="text" name="image" placeholder="ej: producto.jpg" required />
 
     <button type="submit">Agregar a Inventario</button>
@@ -80,7 +102,7 @@
 
       const formData = new FormData(form);
       const payload = {
-        id: "item-" + Date.now(), // Genera un ID único basado en timestamp
+        id: "item-" + Date.now(),
         name: formData.get("name"),
         price: parseFloat(formData.get("price")),
         description: formData.get("description"),
@@ -98,15 +120,25 @@
 
         const result = await response.text();
         message.textContent = result;
-        message.style.color = response.ok ? "green" : "red";
+        message.style.color = response.ok ? "lightgreen" : "red";
       } catch (error) {
         message.textContent = "Error al enviar los datos.";
         message.style.color = "red";
         console.error("Error:", error);
       }
     });
+
+    function setLanguage(lang) {
+      document.querySelectorAll("label").forEach(label => {
+        label.textContent = label.getAttribute(`data-${lang}`);
+      });
+      document.querySelector("h2").textContent = lang === "es" ? "Agregar nuevo producto" : "Add new product";
+      document.querySelector("button[type='submit']").textContent = lang === "es" ? "Agregar a Inventario" : "Add to Inventory";
+      document.querySelector("p").innerHTML = lang === "es"
+        ? "<strong>Nota:</strong> Este formulario actualiza directamente <code>inventory.json</code> en GitHub."
+        : "<strong>Note:</strong> This form updates <code>inventory.json</code> directly in GitHub.";
+    }
   </script>
 
 </body>
 </html>
-
